@@ -1,0 +1,15 @@
+.testimonial-container{
+    display: grid;
+    grid-template-rows: 1 auto;
+    grid-template-columns: repeat(4, auto);
+    margin: 20px auto;
+    justify-content: center;
+    column-gap: 10%;
+}
+.testimonial h2{
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.testimonial{
+    min-height: 400px;
+}

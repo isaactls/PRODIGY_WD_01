@@ -1,0 +1,58 @@
+.hero-container {
+  height: 80vh;
+  background: url(/src/assets/image-1.jpg);
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  margin-top: 60px;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #ff0000, 0 0 10px  #ff2f2f, 0 0 20px #ff1616;
+  color:red;
+}
+.hero-container > h2 {
+  width: 500px;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+.hero-container > h1,
+.hero-container > h2 {
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.hero-btn {
+  padding: 10px 20px;
+  width: 250px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #008cff;
+  text-shadow: none;
+  background: red;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #008cff;
+  transition: 0.5s ease;
+  user-select: none;
+  margin-top: 40px;
+}
+
+.hero-btn:hover {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}

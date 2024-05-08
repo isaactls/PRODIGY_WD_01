@@ -1,0 +1,15 @@
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    align-items: center;
+}
+.nav-container, .nav-items, .nav-items>li, .nav-items a{
+    height: 100%;
+}
+.nav-items a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
