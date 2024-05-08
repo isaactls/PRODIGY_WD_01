@@ -6,6 +6,8 @@
 }
 .testimonial-card img{
     border-radius: 50%;
+    box-shadow: 5px 5px 12px #626361;
+    margin-bottom: 12px;
 }
 .testimonial-text{
     display: flex;

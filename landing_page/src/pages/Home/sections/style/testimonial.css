@@ -13,3 +13,18 @@
 .testimonial{
     min-height: 400px;
 }
+@media(max-width : 768px){
+    .testimonial-container{
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(2, auto);
+        row-gap: 25px;
+        column-gap: 150px;
+    }
+}
+
+@media(max-width : 480px){
+    .testimonial-container{
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: auto;
+    }
+}

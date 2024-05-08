@@ -15,26 +15,27 @@ function MobileNav() {
           <span></span>
           {isOpen && (
               <ul className="nav-items-wrapper">
-              <li>
                 <NavLink className="nav-item" to="/">
-                  Home
+                  <li>
+                    Home
+                  </li>
                 </NavLink>
-              </li>
-              <li>
-                <NavLink className="nav-item" to="/About">
-                  About
+                <NavLink className="nav-item" to="/">
+                  <li>
+                    about
+                  </li>
                 </NavLink>
-              </li>
-              <li>
-                <NavLink className="nav-item" to="/service">
-                  service
+                <NavLink className="nav-item" to="/">
+                  <li>
+                    service
+                  </li>
                 </NavLink>
-              </li>
-              <li>
-                <NavLink className="nav-item" to="/contact">
-                  contact
+                <NavLink className="nav-item" to="/">
+                  <li>
+                    contact
+                  </li>
                 </NavLink>
-              </li>
+
             </ul>
           )}
         </nav>

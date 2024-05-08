@@ -18,6 +18,7 @@
   text-transform: uppercase;
   text-shadow: 0 0 5px #ff0000, 0 0 10px  #ff2f2f, 0 0 20px #ff1616;
   color:red;
+  margin-bottom: 12px;
 }
 .hero-container > h2 {
   width: 500px;
@@ -55,4 +56,22 @@
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
   box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
     0 0 100px #008cff;
+}
+@media(max-width : 550px){
+  .hero-container{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .hero-container h1, .hero-container h2{
+    text-align: start;
+  }
+  .hero-container h1{
+    font-size: 3rem;
+  }
+  .hero-container h2{
+    font-size: 1.5rem;
+    width: auto;
+  }
 }
