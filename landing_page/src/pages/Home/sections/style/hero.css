@@ -11,6 +11,18 @@
   align-items: center;
   justify-content: center;
 }
+
+@keyframes fadeup{
+  0%{
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero-container h1 {
   font-family: "Noto Serif", serif;
   font-weight: 900;
@@ -19,12 +31,14 @@
   text-shadow: 0 0 5px #ff0000, 0 0 10px  #ff2f2f, 0 0 20px #ff1616;
   color:red;
   margin-bottom: 12px;
+  animation: fadeup 0.8s 0.1s ease backwards;
 }
 .hero-container > h2 {
   width: 500px;
   text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
   color: rgb(255, 255, 255);
   text-transform: capitalize;
+  animation: fadeup 0.8s 0.3s ease backwards;
 }
 .hero-container > h1,
 .hero-container > h2 {
@@ -47,6 +61,7 @@
   transition: 0.5s ease;
   user-select: none;
   margin-top: 40px;
+  animation: fadeup 0.8s 0.5s ease backwards;
 }
 
 .hero-btn:hover {

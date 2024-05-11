@@ -5,7 +5,20 @@ import FeatureCard from '../../../components/UI/FeatureCard';
 import { FaPiggyBank } from "react-icons/fa";
 import { GiCarKey } from "react-icons/gi";
 import { FaBuilding } from "react-icons/fa";
+import { useInView } from 'react-intersection-observer';
+
 function Features() {
+  const [isVisible, setIsVisible] = useState(false);
+  const { ref, inView } = useInView({
+    threshold: 1,
+  });
+
+  React.useEffect(() => {
+    if (inView) {
+      setIsVisible(true);
+    }
+  }, [inView]);
+  
   const [cardData] = useState([{
     title : 'Find Your Fit',
     para : "Not sure what you want? answet a few question to find what fits you best",
@@ -38,10 +51,10 @@ function Features() {
   return (
     <section className='features'>
         <div className='feature-containers row'>
-          <h2 className='features-header'>features</h2>
+          <h2 ref={ref} className={`features-header visible ${isVisible ? "animate" : ""}`}>features</h2>
           <div className="feature-cards-container">
             {cardData.map((e) =>{
-              return <FeatureCard key={e.id} cardData={e}/>
+              return <FeatureCard key={e.id} cardData={e} />
             })}
           </div>
         </div>

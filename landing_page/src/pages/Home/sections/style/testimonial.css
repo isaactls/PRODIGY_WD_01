@@ -2,7 +2,7 @@
     display: grid;
     grid-template-rows: 1 auto;
     grid-template-columns: repeat(4, auto);
-    margin: 20px auto;
+    padding: 20px auto;
     justify-content: center;
     column-gap: 10%;
 }
@@ -12,6 +12,7 @@
 }
 .testimonial{
     min-height: 400px;
+    padding-top: 40px;
 }
 @media(max-width : 768px){
     .testimonial-container{
