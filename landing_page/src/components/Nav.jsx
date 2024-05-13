@@ -7,16 +7,16 @@ function Nav() {
     <nav className="nav-container">
       <ul className="nav-items">
         <li>
-          <NavLink to="/"> Home</NavLink>
+          <NavLink to="/PRODIGY_WD_01/landing_page/"> Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/PRODIGY_WD_01/landing_page/About">About</NavLink>
         </li>
         <li>
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/PRODIGY_WD_01/landing_page/services">Services</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">contact</NavLink>
+          <NavLink to="/PRODIGY_WD_01/landing_page/contact">contact</NavLink>
         </li>
       </ul>
     </nav>
