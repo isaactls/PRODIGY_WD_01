@@ -7,7 +7,7 @@ function Nav() {
     <nav className="nav-container">
       <ul className="nav-items">
         <li>
-          <NavLink to="/PRODIGY_WD_01"> Home</NavLink>
+          <NavLink to="/"> Home</NavLink>
         </li>
         <li>
           <NavLink to="/about">About</NavLink>
