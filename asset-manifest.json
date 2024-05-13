@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PRODIGY_WD_01/static/css/main.c0e37e59.css",
-    "main.js": "/PRODIGY_WD_01/static/js/main.4dc696e4.js",
-    "static/js/453.7ee4257d.chunk.js": "/PRODIGY_WD_01/static/js/453.7ee4257d.chunk.js",
-    "static/media/image-1.jpg": "/PRODIGY_WD_01/static/media/image-1.b1c52db720a91bf4cbd8.jpg",
-    "index.html": "/PRODIGY_WD_01/index.html",
-    "main.c0e37e59.css.map": "/PRODIGY_WD_01/static/css/main.c0e37e59.css.map",
-    "main.4dc696e4.js.map": "/PRODIGY_WD_01/static/js/main.4dc696e4.js.map",
-    "453.7ee4257d.chunk.js.map": "/PRODIGY_WD_01/static/js/453.7ee4257d.chunk.js.map"
+    "main.css": "/PRODIGY_WD_01/landing_page/static/css/main.e64e0dff.css",
+    "main.js": "/PRODIGY_WD_01/landing_page/static/js/main.fd7c88fd.js",
+    "static/js/453.7ee4257d.chunk.js": "/PRODIGY_WD_01/landing_page/static/js/453.7ee4257d.chunk.js",
+    "static/media/image-1.jpg": "/PRODIGY_WD_01/landing_page/static/media/image-1.b1c52db720a91bf4cbd8.jpg",
+    "index.html": "/PRODIGY_WD_01/landing_page/index.html",
+    "main.e64e0dff.css.map": "/PRODIGY_WD_01/landing_page/static/css/main.e64e0dff.css.map",
+    "main.fd7c88fd.js.map": "/PRODIGY_WD_01/landing_page/static/js/main.fd7c88fd.js.map",
+    "453.7ee4257d.chunk.js.map": "/PRODIGY_WD_01/landing_page/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0e37e59.css",
-    "static/js/main.4dc696e4.js"
+    "static/css/main.e64e0dff.css",
+    "static/js/main.fd7c88fd.js"
   ]
 }
