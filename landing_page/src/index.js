@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/PRODIGY_WD_01/landing_page">
+  <BrowserRouter basename="/PRODIGY_WD_01">
     <App />
   </BrowserRouter>
 );
